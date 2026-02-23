@@ -1,0 +1,704 @@
+[
+  {
+    "code": "DR-001",
+    "name": "Crochet Dress",
+    "category": "Dress",
+    "description": "Handcrafted crochet dress with a soft, breathable finish.",
+    "price": 120,
+    "currency": "LKR",
+    "cover_image": "images/gallery/nola dress2.png",
+    "images": [
+      {
+        "path": "images/gallery/nola dress2.png",
+        "alt": null
+      },
+      {
+        "path": "images/gallery/nola dress3.png",
+        "alt": null
+      },
+      {
+        "path": "images/gallery/nola dress4.png",
+        "alt": null
+      }
+    ],
+    "colors": [
+      {
+        "name": "Beige",
+        "hex": null
+      },
+      {
+        "name": "Black",
+        "hex": null
+      },
+      {
+        "name": "Cream",
+        "hex": null
+      }
+    ],
+    "sizes": [
+      {
+        "name": "XS"
+      },
+      {
+        "name": "S"
+      },
+      {
+        "name": "M"
+      },
+      {
+        "name": "L"
+      },
+      {
+        "name": "XL"
+      }
+    ],
+    "materials": [
+      {
+        "text": "100% cotton yarn"
+      },
+      {
+        "text": "Hand-crocheted"
+      },
+      {
+        "text": "Breathable and lightweight"
+      }
+    ],
+    "care": [
+      {
+        "text": "Hand wash cold"
+      },
+      {
+        "text": "Lay flat to dry"
+      },
+      {
+        "text": "Do not bleach"
+      }
+    ]
+  },
+  {
+    "code": "DR-002",
+    "name": "Crochet Dress",
+    "category": "Dress",
+    "description": "Elegant crochet pattern ideal for warm days.",
+    "price": 120,
+    "currency": "LKR",
+    "cover_image": "images/gallery/nola dress3.png",
+    "images": [
+      {
+        "path": "images/gallery/nola dress3.png",
+        "alt": null
+      }
+    ],
+    "colors": [
+      {
+        "name": "Beige",
+        "hex": null
+      },
+      {
+        "name": "Olive",
+        "hex": null
+      }
+    ],
+    "sizes": [
+      {
+        "name": "XS"
+      },
+      {
+        "name": "S"
+      },
+      {
+        "name": "M"
+      },
+      {
+        "name": "L"
+      },
+      {
+        "name": "XL"
+      }
+    ],
+    "materials": [
+      {
+        "text": "Cotton yarn"
+      },
+      {
+        "text": "Soft touch"
+      }
+    ],
+    "care": [
+      {
+        "text": "Hand wash cold"
+      },
+      {
+        "text": "Lay flat to dry"
+      }
+    ]
+  },
+  {
+    "code": "DR-003",
+    "name": "Crochet Dress",
+    "category": "Dress",
+    "description": "Classic silhouette with artisanal stitching.",
+    "price": 120,
+    "currency": "LKR",
+    "cover_image": "images/gallery/nola dress4.png",
+    "images": [
+      {
+        "path": "images/gallery/nola dress4.png",
+        "alt": null
+      }
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": null
+      },
+      {
+        "name": "Cream",
+        "hex": null
+      }
+    ],
+    "sizes": [
+      {
+        "name": "XS"
+      },
+      {
+        "name": "S"
+      },
+      {
+        "name": "M"
+      },
+      {
+        "name": "L"
+      },
+      {
+        "name": "XL"
+      }
+    ],
+    "materials": [
+      {
+        "text": "Cotton yarn"
+      }
+    ],
+    "care": [
+      {
+        "text": "Hand wash cold"
+      },
+      {
+        "text": "Lay flat to dry"
+      }
+    ]
+  },
+  {
+    "code": "DR-004",
+    "name": "Crochet Dress",
+    "category": "Dress",
+    "description": "Textured crochet with comfortable drape.",
+    "price": 120,
+    "currency": "LKR",
+    "cover_image": "images/gallery/nola dress5.png",
+    "images": [
+      {
+        "path": "images/gallery/nola dress5.png",
+        "alt": null
+      }
+    ],
+    "colors": [
+      {
+        "name": "Cream",
+        "hex": null
+      }
+    ],
+    "sizes": [
+      {
+        "name": "XS"
+      },
+      {
+        "name": "S"
+      },
+      {
+        "name": "M"
+      },
+      {
+        "name": "L"
+      },
+      {
+        "name": "XL"
+      }
+    ],
+    "materials": [
+      {
+        "text": "Cotton yarn"
+      }
+    ],
+    "care": [
+      {
+        "text": "Hand wash cold"
+      },
+      {
+        "text": "Lay flat to dry"
+      }
+    ]
+  },
+  {
+    "code": "DR-005",
+    "name": "Crochet Dress",
+    "category": "Dress",
+    "description": "Relaxed fit with breathable weave.",
+    "price": 120,
+    "currency": "LKR",
+    "cover_image": "images/gallery/nola dress6.png",
+    "images": [
+      {
+        "path": "images/gallery/nola dress6.png",
+        "alt": null
+      }
+    ],
+    "colors": [
+      {
+        "name": "Beige",
+        "hex": null
+      }
+    ],
+    "sizes": [
+      {
+        "name": "XS"
+      },
+      {
+        "name": "S"
+      },
+      {
+        "name": "M"
+      },
+      {
+        "name": "L"
+      },
+      {
+        "name": "XL"
+      }
+    ],
+    "materials": [
+      {
+        "text": "Cotton yarn"
+      }
+    ],
+    "care": [
+      {
+        "text": "Hand wash cold"
+      },
+      {
+        "text": "Lay flat to dry"
+      }
+    ]
+  },
+  {
+    "code": "DR-006",
+    "name": "Crochet Dress",
+    "category": "Dress",
+    "description": "Timeless crochet design for everyday style.",
+    "price": 120,
+    "currency": "LKR",
+    "cover_image": "images/gallery/nola dress7.png",
+    "images": [
+      {
+        "path": "images/gallery/nola dress7.png",
+        "alt": null
+      }
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": null
+      },
+      {
+        "name": "Beige",
+        "hex": null
+      }
+    ],
+    "sizes": [
+      {
+        "name": "XS"
+      },
+      {
+        "name": "S"
+      },
+      {
+        "name": "M"
+      },
+      {
+        "name": "L"
+      },
+      {
+        "name": "XL"
+      }
+    ],
+    "materials": [
+      {
+        "text": "Cotton yarn"
+      }
+    ],
+    "care": [
+      {
+        "text": "Hand wash cold"
+      },
+      {
+        "text": "Lay flat to dry"
+      }
+    ]
+  },
+  {
+    "code": "DR-007",
+    "name": "Crochet Dress",
+    "category": "Dress",
+    "description": "Statement crochet piece with soft texture.",
+    "price": 120,
+    "currency": "LKR",
+    "cover_image": "images/gallery/nola dress8.png",
+    "images": [
+      {
+        "path": "images/gallery/nola dress8.png",
+        "alt": null
+      }
+    ],
+    "colors": [
+      {
+        "name": "Cream",
+        "hex": null
+      },
+      {
+        "name": "Olive",
+        "hex": null
+      }
+    ],
+    "sizes": [
+      {
+        "name": "XS"
+      },
+      {
+        "name": "S"
+      },
+      {
+        "name": "M"
+      },
+      {
+        "name": "L"
+      },
+      {
+        "name": "XL"
+      }
+    ],
+    "materials": [
+      {
+        "text": "Cotton yarn"
+      }
+    ],
+    "care": [
+      {
+        "text": "Hand wash cold"
+      },
+      {
+        "text": "Lay flat to dry"
+      }
+    ]
+  },
+  {
+    "code": "HB-008",
+    "name": "Crochet Handbag",
+    "category": "Handbag",
+    "description": "Handcrafted crochet handbag for daily essentials.",
+    "price": 85,
+    "currency": "LKR",
+    "cover_image": "images/gallery/nola bag.png",
+    "images": [
+      {
+        "path": "images/gallery/nola bag.png",
+        "alt": null
+      }
+    ],
+    "colors": [
+      {
+        "name": "Beige",
+        "hex": null
+      },
+      {
+        "name": "Brown",
+        "hex": null
+      }
+    ],
+    "sizes": [],
+    "materials": [
+      {
+        "text": "Durable yarn"
+      },
+      {
+        "text": "Handmade"
+      }
+    ],
+    "care": [
+      {
+        "text": "Spot clean with damp cloth"
+      },
+      {
+        "text": "Do not machine wash"
+      },
+      {
+        "text": "Avoid overloading"
+      }
+    ]
+  },
+  {
+    "code": "HB-009",
+    "name": "Crochet Handbag",
+    "category": "Handbag",
+    "description": "Compact crochet bag with comfortable handle.",
+    "price": 85,
+    "currency": "LKR",
+    "cover_image": "images/gallery/nola bag2.png",
+    "images": [
+      {
+        "path": "images/gallery/nola bag2.png",
+        "alt": null
+      }
+    ],
+    "colors": [
+      {
+        "name": "Cream",
+        "hex": null
+      }
+    ],
+    "sizes": [],
+    "materials": [
+      {
+        "text": "Durable yarn"
+      }
+    ],
+    "care": [
+      {
+        "text": "Spot clean with damp cloth"
+      },
+      {
+        "text": "Do not machine wash"
+      }
+    ]
+  },
+  {
+    "code": "HB-010",
+    "name": "Crochet Handbag",
+    "category": "Handbag",
+    "description": "Stylish crochet tote for everyday use.",
+    "price": 85,
+    "currency": "LKR",
+    "cover_image": "images/gallery/nola bag3.png",
+    "images": [
+      {
+        "path": "images/gallery/nola bag3.png",
+        "alt": null
+      }
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": null
+      },
+      {
+        "name": "Beige",
+        "hex": null
+      }
+    ],
+    "sizes": [],
+    "materials": [
+      {
+        "text": "Durable yarn"
+      }
+    ],
+    "care": [
+      {
+        "text": "Spot clean with damp cloth"
+      },
+      {
+        "text": "Do not machine wash"
+      }
+    ]
+  },
+  {
+    "code": "HB-011",
+    "name": "Crochet Handbag",
+    "category": "Handbag",
+    "description": "Textured crochet handbag with roomy interior.",
+    "price": 85,
+    "currency": "LKR",
+    "cover_image": "images/gallery/nola bag4.png",
+    "images": [
+      {
+        "path": "images/gallery/nola bag4.png",
+        "alt": null
+      }
+    ],
+    "colors": [
+      {
+        "name": "Brown",
+        "hex": null
+      }
+    ],
+    "sizes": [],
+    "materials": [
+      {
+        "text": "Durable yarn"
+      }
+    ],
+    "care": [
+      {
+        "text": "Spot clean with damp cloth"
+      },
+      {
+        "text": "Do not machine wash"
+      }
+    ]
+  },
+  {
+    "code": "HB-012",
+    "name": "Crochet Handbag",
+    "category": "Handbag",
+    "description": "Minimal crochet bag for essentials.",
+    "price": 85,
+    "currency": "LKR",
+    "cover_image": "images/gallery/nola bag5.png",
+    "images": [
+      {
+        "path": "images/gallery/nola bag5.png",
+        "alt": null
+      }
+    ],
+    "colors": [
+      {
+        "name": "Cream",
+        "hex": null
+      }
+    ],
+    "sizes": [],
+    "materials": [
+      {
+        "text": "Durable yarn"
+      }
+    ],
+    "care": [
+      {
+        "text": "Spot clean with damp cloth"
+      },
+      {
+        "text": "Do not machine wash"
+      }
+    ]
+  },
+  {
+    "code": "HB-013",
+    "name": "Crochet Handbag",
+    "category": "Handbag",
+    "description": "Soft crochet handbag with subtle pattern.",
+    "price": 85,
+    "currency": "LKR",
+    "cover_image": "images/gallery/nola bag6.png",
+    "images": [
+      {
+        "path": "images/gallery/nola bag6.png",
+        "alt": null
+      }
+    ],
+    "colors": [
+      {
+        "name": "Beige",
+        "hex": null
+      }
+    ],
+    "sizes": [],
+    "materials": [
+      {
+        "text": "Durable yarn"
+      }
+    ],
+    "care": [
+      {
+        "text": "Spot clean with damp cloth"
+      },
+      {
+        "text": "Do not machine wash"
+      }
+    ]
+  },
+  {
+    "code": "HB-014",
+    "name": "Crochet Handbag",
+    "category": "Handbag",
+    "description": "Chic crochet handbag for versatile wear.",
+    "price": 85,
+    "currency": "LKR",
+    "cover_image": "images/gallery/nola bag7.png",
+    "images": [
+      {
+        "path": "images/gallery/nola bag7.png",
+        "alt": null
+      }
+    ],
+    "colors": [
+      {
+        "name": "Beige",
+        "hex": null
+      }
+    ],
+    "sizes": [],
+    "materials": [
+      {
+        "text": "Durable yarn"
+      }
+    ],
+    "care": [
+      {
+        "text": "Spot clean with damp cloth"
+      },
+      {
+        "text": "Do not machine wash"
+      }
+    ]
+  },
+  {
+    "code": "BL-015",
+    "name": "Rose Blanket Bouquet",
+    "category": "Blanket",
+    "description": "Cozy crochet blanket with rose-inspired motif.",
+    "price": 150,
+    "currency": "LKR",
+    "cover_image": "images/gallery/nola blanket.png",
+    "images": [
+      {
+        "path": "images/gallery/nola blanket.png",
+        "alt": null
+      }
+    ],
+    "colors": [
+      {
+        "name": "Rose",
+        "hex": null
+      },
+      {
+        "name": "Cream",
+        "hex": null
+      }
+    ],
+    "sizes": [],
+    "materials": [
+      {
+        "text": "Soft acrylic yarn"
+      }
+    ],
+    "care": [
+      {
+        "text": "Machine wash gentle"
+      },
+      {
+        "text": "Tumble dry low"
+      },
+      {
+        "text": "Do not bleach"
+      }
+    ]
+  }
+]
