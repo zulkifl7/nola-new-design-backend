@@ -26,5 +26,19 @@ class DatabaseSeeder extends Seeder
                 'role' => 'admin',
             ]);
         }
+
+        $adminEmail = env('ADMIN_EMAIL');
+        $adminPass = env('ADMIN_PASSWORD');
+        if ($adminEmail && $adminPass) {
+            $adminName = env('ADMIN_NAME', 'Admin');
+            User::updateOrCreate(
+                ['email' => $adminEmail],
+                [
+                    'name' => $adminName,
+                    'password' => Hash::make($adminPass),
+                    'role' => 'admin',
+                ]
+            );
+        }
     }
 }
