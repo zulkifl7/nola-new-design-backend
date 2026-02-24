@@ -34,8 +34,8 @@ class StoreProductRequest extends FormRequest
             'materials.*.text' => ['required', 'string', 'max:255'],
             'care' => ['array'],
             'care.*.text' => ['required', 'string', 'max:255'],
-            'images' => ['array'],
-            'images.*' => ['file', 'image', 'mimes:jpg,jpeg,png,webp', 'max:2048'],
+            'images' => ['nullable', 'array'],
+            'images.*' => ['file', 'image', 'mimes:jpg,jpeg,png,webp', 'max:8192'],
         ];
     }
 }

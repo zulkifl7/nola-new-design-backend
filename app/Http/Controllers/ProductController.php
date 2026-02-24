@@ -288,6 +288,36 @@ class ProductController extends Controller
         ]);
     }
 
+    public function setCover(string $id, string $imageId)
+    {
+        $product = Product::find($id);
+        if (!$product) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Not found',
+                'data' => null,
+                'errors' => (object)[],
+            ], 404);
+        }
+        $image = $product->images()->where('id', $imageId)->first();
+        if (!$image) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Not found',
+                'data' => null,
+                'errors' => (object)[],
+            ], 404);
+        }
+        $product->cover_image = $image->path;
+        $product->save();
+        return response()->json([
+            'success' => true,
+            'message' => 'Cover image set',
+            'data' => $product->fresh(['images']),
+            'errors' => (object)[],
+        ]);
+    }
+
     protected function syncChildren(Product $product, array $payload, bool $isUpdate = false): void
     {
         if (isset($payload['colors']) && is_array($payload['colors'])) {

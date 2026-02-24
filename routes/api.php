@@ -21,9 +21,9 @@ Route::middleware(['auth:sanctum', 'admin', 'throttle:30,1'])->group(function ()
     Route::delete('/products/{id}', [ProductController::class, 'destroy']);
     Route::post('/products/{id}/images', [ProductController::class, 'uploadImage']);
     Route::delete('/products/{id}/images/{imageId}', [ProductController::class, 'deleteImage']);
+    Route::post('/products/{id}/cover/{imageId}', [ProductController::class, 'setCover']);
 
     Route::post('/categories', [CategoryController::class, 'store']);
     Route::put('/categories/{id}', [CategoryController::class, 'update']);
     Route::delete('/categories/{id}', [CategoryController::class, 'destroy']);
 });
-
