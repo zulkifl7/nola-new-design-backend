@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\InstagramController;
 
 Route::post('/login', [AuthController::class, 'login'])->middleware('throttle:20,1');
 Route::post('/logout', [AuthController::class, 'logout'])->middleware(['auth:sanctum']);
@@ -14,6 +15,7 @@ Route::get('/products/{id}', [ProductController::class, 'show']);
 
 Route::get('/categories', [CategoryController::class, 'index']);
 Route::get('/categories/{id}', [CategoryController::class, 'show']);
+Route::get('/instagram/media', [InstagramController::class, 'media']);
 
 Route::middleware(['auth:sanctum', 'admin', 'throttle:30,1'])->group(function () {
     Route::post('/products', [ProductController::class, 'store']);
