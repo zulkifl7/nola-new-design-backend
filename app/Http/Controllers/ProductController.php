@@ -152,6 +152,7 @@ class ProductController extends Controller
                 'price' => $payload['price'] ?? null,
                 'currency' => $payload['currency'] ?? 'LKR',
                 'cover_image' => $payload['cover_image'] ?? null,
+                'lead_time_days' => $payload['lead_time_days'] ?? null,
                 'featured' => $payload['featured'] ?? false,
                 'status' => $payload['status'] ?? 'active',
                 'seo_title' => $payload['seo_title'] ?? null,
