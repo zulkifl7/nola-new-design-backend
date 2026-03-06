@@ -11,6 +11,69 @@ class UpdateProductRequest extends FormRequest
         return true;
     }
 
+    protected function prepareForValidation(): void
+    {
+        $payload = $this->all();
+        if (isset($payload['colors']) && is_array($payload['colors'])) {
+            $payload['colors'] = array_values(array_map(function ($row) {
+                if (is_string($row)) {
+                    return ['name' => $row];
+                }
+                if (is_array($row)) {
+                    $name = $row['name'] ?? $row['label'] ?? $row['value'] ?? null;
+                    $hex = $row['hex'] ?? $row['color'] ?? null;
+                    if (is_string($hex)) {
+                        $hex = ltrim($hex, '#');
+                        if (preg_match('/^[0-9A-Fa-f]{6}$/', $hex)) {
+                            $hex = '#' . strtoupper($hex);
+                        } else {
+                            $hex = null;
+                        }
+                    }
+                    return ['name' => $name, 'hex' => $hex];
+                }
+                return ['name' => null, 'hex' => null];
+            }, $payload['colors']));
+        }
+        if (isset($payload['sizes']) && is_array($payload['sizes'])) {
+            $payload['sizes'] = array_values(array_map(function ($row) {
+                if (is_string($row)) {
+                    return ['name' => $row];
+                }
+                if (is_array($row)) {
+                    $name = $row['name'] ?? $row['label'] ?? $row['value'] ?? null;
+                    return ['name' => $name];
+                }
+                return ['name' => null];
+            }, $payload['sizes']));
+        }
+        if (isset($payload['materials']) && is_array($payload['materials'])) {
+            $payload['materials'] = array_values(array_map(function ($row) {
+                if (is_string($row)) {
+                    return ['text' => $row];
+                }
+                if (is_array($row)) {
+                    $text = $row['text'] ?? $row['label'] ?? $row['value'] ?? null;
+                    return ['text' => $text];
+                }
+                return ['text' => null];
+            }, $payload['materials']));
+        }
+        if (isset($payload['care']) && is_array($payload['care'])) {
+            $payload['care'] = array_values(array_map(function ($row) {
+                if (is_string($row)) {
+                    return ['text' => $row];
+                }
+                if (is_array($row)) {
+                    $text = $row['text'] ?? $row['label'] ?? $row['value'] ?? null;
+                    return ['text' => $text];
+                }
+                return ['text' => null];
+            }, $payload['care']));
+        }
+        $this->replace($payload);
+    }
+
     public function rules(): array
     {
         $id = $this->route('id');
