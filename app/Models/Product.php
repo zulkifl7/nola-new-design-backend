@@ -24,6 +24,7 @@ class Product extends Model
         'status',
         'seo_title',
         'seo_description',
+        'lead_time_days',
     ];
 
     protected $casts = [

@@ -21,6 +21,7 @@ class StoreProductRequest extends FormRequest
             'description' => ['nullable', 'string'],
             'price' => ['nullable', 'numeric', 'min:0'],
             'currency' => ['nullable', 'string', 'size:3'],
+            'lead_time_days' => ['nullable', 'integer', 'min:0', 'max:365'],
             'featured' => ['boolean'],
             'status' => ['in:draft,active,archived'],
             'seo_title' => ['nullable', 'string', 'max:60'],
