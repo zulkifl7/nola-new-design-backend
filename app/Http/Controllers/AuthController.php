@@ -16,8 +16,8 @@ class AuthController extends Controller
             'device_name' => ['nullable', 'string'],
         ]);
 
-        $user = User::where('email', $request->string('email'))->first();
-        if (!$user || !Hash::check($request->string('password'), $user->password)) {
+        $user = User::where('email', $request->input('email'))->first();
+        if (!$user || !Hash::check($request->input('password'), $user->password)) {
             return response()->json([
                 'success' => false,
                 'message' => 'Invalid credentials',
@@ -25,7 +25,7 @@ class AuthController extends Controller
                 'errors' => (object)[],
             ], 401);
         }
-        $device = $request->string('device_name')->toString() ?: 'api';
+        $device = $request->input('device_name', 'api');
         $token = $user->createToken($device)->plainTextToken;
 
         return response()->json([
